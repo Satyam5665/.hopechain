@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Explora&family=League+Spartan:wght@100;200;300;400;500;600;700&family=Urbanist:ital,wght@0,100;0,200;1,100&display=swap');
+
+a{
+  font-family: 'Explora', cursive;
+  font-family: 'Urbanist', sans-serif;
+
+}
+
+#white{
+  color: white;
+}
+.App {
+  text-align: center;
+}
+ a{
+  font-style: normal;
+
+ }
+
+nav{
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 25px;
+  margin: 30px 10px;
+  
+  background-color: black}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.btn-secondary{
+    background-color: transparent;
+    color:#7286D3;
+   
+    background-repeat: no-repeat;
+}
+
+.carousel {
+  margin: auto;
+  width: 70%;
+  border: 3px;
+  border-radius: 30px;
+  padding: 10px;
+}
+table{
+  margin: 10px 10px;
+  border-radius: 10px;
+ 
+}
+
+.btn-secondary:hover{
+  background-color: #7286D3;
+  color:#FFF2F2;
+}
+
+
+body{
+  background-image: url("../public/img.jpg");
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  color: white;
+}
+
+#bb{
+  background-color: #282c34;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+#cen{
+  align-items: center;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+}
+
+h1,h5{
+  color: #342b29;
+  
+
+}
+
+#hope{
+  color: #c9dce8;
+}
+
+#donate{
+  background-color: transparent;
+  border-radius: 20px;
+}
+
+span {
+  color: #7286D3;
+}
+
+
+#tb{
+   padding: 10px 20px;
+   width: 100%;
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   justify-items: center;
+}
+
+*{
+  color: white;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
